@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+}
+nav {
+  position: fixed; /*Posición fija*/
+  background-color: #ffffff;
+}
+.Logo, .Lupa, .Barra, .Cruz, .Palabra, .Flecha, .Usuario, .Lista, .Mensaje {
+  display: inline-block;
+}
+.Logo {
+  position: relative;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.Lupa, .Cruz, .Palabra, .Flecha {
+  font-size: 30px;
+  color: #DF0101;
+  margin-left: 10px;
+}
+.texto {
+  background-color: #F78181;
+	border: 2px solid #DF0101;
+	font-size: 20px;
+  margin-left: 10px;
+}
+.Usuario {
+  font-size: 30px;
+  color: #DF0101;
+  margin-left: 70px;
+}
+.Lista {
+  font-size: 30px;
+  color: #DF0101;
+  margin-left: 30px;
+}
+.Mensaje {
+  font-size: 30px;
+  color: #DF0101;
+  margin-left: 30px;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  line-height: 50px;
+  overflow: auto; /*Muestra contenido excedente para que sea visible*/
+}
+.uno, .dos, .tres, .cuatro, .cinco, .seis, .siete, .ocho, .nueve {
+  display: inline-block;
+  background-color: #DF0101;
+  margin-left: 15px;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #000000;
+} /*Los bordes que se le agregan a las barras del menu horizontal, se hacen invocando las medidas que se ejecutan despues del padding.*/
+a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: 29px;
+}
+a:hover {
+  background-color: #F78181;
+}
+.foto1 {
+  padding-top: 200px;
+  margin-left: 30px;
+}
